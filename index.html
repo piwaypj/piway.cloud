@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>Jumper</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.16.custom.css"/>
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="bootstrap/js/html5shiv.js"></script>
+    <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <script id="fullscreenTmpl" type="text/x-jquery-tmpl">
+        <div id="wd-overlay" class="wd-overlay">
+            <div class="wd-element">
+                <span class="wd-close">x close</span>
+
+                <div class="wd-nav">
+                    <span class="wd-nav-next">Next</span>
+                    <span class="wd-nav-prev">Previous</span>
+                </div>
+                <img src="${source}"/>
+
+                <div class="wd-info">
+                    <div class="wd-info-title">
+                        {{html title}}
+                    </div>
+                    <div class="wd-info-desc">
+                        {{html description}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#topnav">
+
+<div class="navbar navbar-color navbar-fixed-top" id="topnav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-reorder"></span>
+
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/jumper-logo.png" alt="Expose"/> </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+        <!--/.navbar-collapse -->
+    </div>
+</div>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron" id="home">
+    <div class="intro">
+        <div class="container">
+            <!--<div class="row row-top">-->
+            <!--<div class="col-md-3">-->
+            <!--<div class="ccont">-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-6">-->
+            <!--<div class="ccont">-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-3">-->
+            <!--<div class="ccont">-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row row-bottom">-->
+            <!--<div class="col-md-8">-->
+            <!--<div class="ccont">-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-4">-->
+            <!--<div class="ccont">-->
+
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+
+            <div class="row">
+                <h1 class="text-center">Template <span>Eden</span></h1>
+
+                <p class="text-center">Get All Amazing Website Templates for Free</p><br/>
+            </div>
+            <div class="row triangles">
+                <div class="up-triangle animated fadeInUp">
+                    <div class="info">
+                        <i class="icon icon-cogs"></i><br/>
+                        Bootstrap 3
+                    </div>
+                </div>
+                <div class="down-triangle animated fadeInDown">
+                    <div class="info">
+
+                        Support<br/>
+                        <i class="icon icon-envelope-alt"></i>
+                    </div>
+                </div>
+                <div class="up-triangle animated fadeInUp">
+                    <div class="info">
+
+                        <i class="icon icon-picture"></i><br/>
+                        Colorful
+                    </div>
+                </div>
+                <div class="down-triangle animated fadeInDown">
+                    <div class="info">
+
+                        Clean Code<br/>
+                        <i class="icon icon-code"></i>
+                    </div>
+                </div>
+
+                <div class="down-triangle animated fadeInDown visible-sm">
+                    <div class="info">
+
+                        Clean Code<br/>
+                        <i class="icon icon-code"></i>
+                    </div>
+                </div>
+
+                <div class="up-triangle animated fadeInUp">
+                    <div class="info">
+
+                        <i class="icon icon-thumbs-up"></i><br/>
+                        Awesome
+                    </div>
+                </div>
+                <div class="down-triangle animated fadeInDown">
+                    <div class="info">
+
+                        Secure<br/>
+                        <i class="icon icon-laptop"></i>
+                    </div>
+                </div>
+                <div class="up-triangle animated fadeInUp">
+                    <div class="info">
+
+                        <i class="icon icon-comments-alt"></i><br/>
+                        Helpful
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section id="services">
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row features">
+        <div class="col-md-12 text-center">
+            <h2>Amazing Features</h2>
+
+            <p>Product is packed with everything you may ever need. Product is packed with everything <Br/>you may ever
+                need. Product is packed with everything you may ever need. </p>
+        </div>
+    </div>
+    <div class="row features">
+
+        <div class="col-lg-2 col-sm-4">
+            <div class="hexicon">
+                <div class="inicon retina"></div>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-sm-4">
+            <div class="hexicon">
+                <div class="inicon support"></div>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-sm-4">
+            <div class="hexicon">
+                <div class="inicon speed"></div>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-sm-4">
+            <div class="hexicon">
+                <div class="inicon social"></div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+            <div class="hexicon">
+                <div class="inicon shopping"></div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-sm-4">
+            <div class="hexicon">
+                <div class="inicon cloud"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+</section>
+
+<section class="slider" id="features">
+    <div class="container">
+        <div class="inner-page">
+            <h2 class="text-center">Awesome Story.</h2>
+
+            <p class="text-center">Tell your projects awesome story. Tell your projects awesome story. Tell your<br/>
+                projects awesome story. Tell your projects awesome story.</p>
+        </div>
+        <div class="row inner-page">
+
+
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="feature-box-icon">
+                        <i class="icon-group"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="shorter">Customer Support</h4>
+
+                        <p class="tall">Lorem ipsum dolor sit amet, consectetur </p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-box-icon">
+                        <i class="icon-file"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="shorter">HTML5 / CSS3 / JS</h4>
+
+                        <p class="tall">Lorem ipsum dolor sit amet, adip.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="feature-box-icon">
+                        <i class="icon-film"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="shorter">Sliders</h4>
+
+                        <p class="tall">Lorem ipsum dolor sit amet, consectetur.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-box-icon">
+                        <i class="icon-magic small user"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="shorter">Icons</h4>
+
+                        <p class="tall">Lorem ipsum dolor sit amet, consectetur </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="feature-box">
+                    <div class="feature-box-icon">
+                        <i class="icon-reorder"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="shorter">Buttons</h4>
+
+                        <p class="tall">Lorem ipsum dolor sit, consectetur adip.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-box-icon">
+                        <i class="icon-desktop"></i>
+                    </div>
+                    <div class="feature-box-info">
+                        <h4 class="shorter">Lightbox</h4>
+
+                        <p class="tall">Lorem sit amet, consectetur adip.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center inner-page">
+            <h2>Our Projects</h2>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum <br/>has been the
+                industry's standard dummy text ever since the 1500s,</p>
+        </div>
+    </div>
+</div>
+<div class="clr"></div>
+<div id="wd-wrapper" class="wd-wrapper">
+<div class="wd-slider"></div>
+<div class="wd-scroll-wrapper">
+<div class="wd-container">
+<div class="wd-element">
+    <img src="images/projects/1.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Beautiful Serendipity</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/2.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Lovely Scenery</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/3.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Lucid Dream</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/4.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Unconditional Love</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/5.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Great Design</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/6.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Wicket Decision</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/7.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Unknown Future</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/8.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Flying Horses</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/9.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Winds of Change</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/10.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Blue Monday</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/11.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Warm Ocean</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/12.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>White Snow</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/13.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Incredible Greatness</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/14.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Unlimited Wisdom</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/15.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Free Ride</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/16.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Nightingale</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/17.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Red Storm</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/18.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Strong Hope</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/19.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Touching Words</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/20.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Everlasting Truth</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/21.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Sinful Touch</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/22.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Black Day</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/23.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Lasting Friendship</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/24.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>True Trust</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/25.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Silent Dawn</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/26.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Green Sunset</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/27.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Nice Shot</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/28.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Lovely Rain</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/29.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Romantic Scent</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/30.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Beautiful Serendipity</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/1.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Beautiful Serendipity</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/2.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Lovely Scenery</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/3.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Lucid Dream</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/4.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Unconditional Love</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/5.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Great Design</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/6.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Wicket Decision</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/7.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Unknown Future</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/8.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Flying Horses</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/9.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Winds of Change</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/10.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Blue Monday</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/11.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Warm Ocean</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/12.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>White Snow</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I
+                enjoy with my whole heart.</p>
+
+            <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like
+                mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that
+                I neglect my talents.</p>
+        </div>
+    </div>
+</div>
+<div class="wd-element">
+    <img src="images/projects/13.jpg"/>
+
+    <div class="wd-info">
+        <div class="wd-info-title">
+            <h2>Incredible Greatness</h2>
+        </div>
+        <div class="wd-info-desc">
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
+                however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of
+                Grammar.</p>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+
+</section>
+
+<section class="pricing" id="pricing">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pricing-intro white">
+                <h2 class="page-headline large text-center">Tell your projects awesome story.</h2>
+
+                <p class="text-center">Tell your projects awesome story. Tell your projects awesome story. Tell your
+                    projects awesome story. Tell your projects awesome story.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="row pricing-table">
+            <div class="col-md-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading"><h3 class="text-center">DEV PLAN</h3></div>
+                    <div class="panel-body text-center">
+                        <p style="font-size: 26pt">$10/month</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-danger"
+                           href="https://creativemarket.com/artlabs/12114-Bootstrap-3.0.-pricing-tables-flat">BUY
+                            NOW!</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-info">
+                    <div class="panel-heading"><h3 class="text-center">PRO PLAN</h3></div>
+                    <div class="panel-body text-center">
+                        <p style="font-size: 26pt">$10/month</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-info"
+                           href="https://creativemarket.com/artlabs/12114-Bootstrap-3.0.-pricing-tables-flat">BUY
+                            NOW!</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><h3 class="text-center">FREE PLAN</h3></div>
+                    <div class="panel-body text-center">
+                        <p style="font-size: 26pt">$10/month</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                    </ul>
+                    <div class="panel-footer">
+                        <a class="btn btn-lg btn-block btn-success"
+                           href="https://creativemarket.com/artlabs/12114-Bootstrap-3.0.-pricing-tables-flat">BUY
+                            NOW!</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<section class="gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">Tell your projects awesome story.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about" id="clients">
+    <div class="dmask">
+
+        <div class="our-clients">
+            <div class="container">
+                <div class="row">
+                    <div class="client" style="background-position: 50% 27px;">
+                        <div class="client-logo">
+                            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                <div class="clients-title">
+                                    <h3 class="title">Our <span>Clients</span></h3>
+
+                                    <div class="carousel-controls pull-right">
+                                        <a data-slide="prev" rel="crs" href="#client-carousel" class="prev btn-mini"><i
+                                                class="icon-angle-left"></i></a>
+                                        <a data-slide="next" rel="crs" href="#client-carousel" class="next btn-mini"><i
+                                                class="icon-angle-right"></i></a>
+
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                    <div class="client-carousel slide" id="client-carousel">
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d1 animate_start">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-1.png" alt="Upportdash"></a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d2 animate_start">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-2.png" alt="Upportdash"></a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d3 animate_start">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-3.png" alt="Upportdash"></a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item animate_afc d4 animate_start">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-4.png" alt="Upportdash"></a></div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-5.png" alt="Upportdash"></a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-4.png" alt="Upportdash"></a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-3.png" alt="Upportdash"></a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 item">
+                                                    <div class="item-inner"><a style="cursor: pointer;"><img
+                                                            src="images/logo-2.png" alt="Upportdash"></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <!-- Testimonials Widget Start -->
+                                <div class="row ">
+                                    <div class="testimonials widget">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="testimonials-title">
+                                                <h3 class="title">Client <span>Testimonials</span></h3>
+
+                                                <div class="carousel-controls pull-right">
+                                                    <a data-slide="prev" rel="crs" href="#testimonials-carousel"
+                                                       class="prev btn-mini"><i class="icon-angle-left"></i></a>
+                                                    <a data-slide="next" rel="crs" href="#testimonials-carousel"
+                                                       class="next btn-mini"><i class="icon-angle-right"></i></a>
+
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="testimonials-carousel slide animate_afr d5 animate_start"
+                                             id="testimonials-carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="testimonial item">
+                                                            <p>
+                                                                Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting industry. Lorem Ipsum has been the
+                                                                industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley of type.
+                                                            </p>
+
+                                                            <div class="testimonials-arrow">
+                                                            </div>
+                                                            <div class="author">
+                                                                <div class="testimonial-image "><img
+                                                                        src="images/team-member-1.jpg" alt=""></div>
+                                                                <div class="testimonial-author-info">
+                                                                    <a style="cursor: pointer;">Monica Sing</a> Template
+                                                                    Eden
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item active">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="testimonial item">
+                                                            <p>
+                                                                Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting industry. Lorem Ipsum has been the
+                                                                industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley of type.
+                                                            </p>
+
+                                                            <div class="testimonials-arrow">
+                                                            </div>
+                                                            <div class="author">
+                                                                <div class="testimonial-image "><img
+                                                                        src="images/team-member-2.jpg" alt=""></div>
+                                                                <div class="testimonial-author-info">
+                                                                    <a href="#">John Doe</a> Template Eden
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="testimonial item">
+                                                            <p>
+                                                                Lorem Ipsum is simply dummy text of the printing and
+                                                                typesetting industry. Lorem Ipsum has been the
+                                                                industry's standard dummy text ever since the 1500s,
+                                                                when an unknown printer took a galley of type.
+                                                            </p>
+
+                                                            <div class="testimonials-arrow">
+                                                            </div>
+                                                            <div class="author">
+                                                                <div class="testimonial-image "><img
+                                                                        src="images/team-member-3.jpg" alt=""></div>
+                                                                <div class="testimonial-author-info">
+                                                                    <a style="cursor: pointer;">Carol Johansen</a>
+                                                                    Template Eden
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="alert alert-success hidden" id="contactSuccess">
+                    <strong>Success!</strong> Your message has been sent to us.
+                </div>
+
+                <div class="alert alert-error hidden" id="contactError">
+                    <strong>Error!</strong> There was an error sending your message.
+                </div>
+
+                <h2 class="short"><strong>Contact</strong> Us</h2>
+
+                <form class="clearfix" accept-charset="utf-8" method="get" action="#">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="" value="" name="name" id="name"
+                                   class="form-control input-lg">
+                        </div>
+
+                        <div class="col-sm-6 form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" placeholder="" value="" name="email" id="email"
+                                   class="form-control input-lg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label for="message">Message</label>
+                            <textarea rows="4" name="message" id="message" class="form-control"></textarea>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-success btn-xlg" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-offset-1 col-md-5">
+                <br/>
+                <h4 class="pull-top">Get in <strong>touch</strong></h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet
+                    varius. In eu ipsum vitae velit congue iaculis vitae at risus.</p>
+
+                <hr>
+
+                <h4>The <strong>Office</strong></h4>
+                <ul class="unstyled">
+                    <li><i class="icon-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United
+                        States
+                    </li>
+                    <li><i class="icon-phone"></i> <strong>Phone:</strong> (123) 456-7890</li>
+                    <li><i class="icon-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer id="footer">
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a class="logo" href="index.html">
+                        <img src="images/jumper-logo.png" alt="Template Eden">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <p>&copy; Copyright 2013 by Template Eden. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-5">
+                    <nav id="footer-menu">
+                        <ul>
+                            <li><a href="#">FAQ's</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://codeorigin.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.sinusoid.js"></script>
+<script type="text/javascript">
+    $(function () {
+        if($(window).width()>960){
+        var tw = $('.triangles').width()/7+32;
+        var ta = tw/2+22;
+        $('.down-triangle').css('border-top',tw+'px solid #ffffff').css('border-left',ta+'px solid transparent').css('border-right',ta+'px solid transparent');
+        $('.up-triangle').css('border-bottom',tw+'px solid #ffffff').css('border-left',ta+'px solid transparent').css('border-right',ta+'px solid transparent');
+        }
+        $('#wd-wrapper').sinusoid({
+            minImgW: 80,
+            maxImgW: 130,
+            minImgAngle: -20,
+            maxImgAngle: 20,
+            leftFactor: 60,
+            sinusoidFunction: {
+                A: 70,
+                T: 1700,
+                P: 0
+            }
+        });
+
+
+        $('a[href*=#]:not([href=#]):not([rel=crs])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+
+    });
+</script>
+</body>
+</html>
